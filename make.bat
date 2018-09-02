@@ -1,0 +1,1 @@
+C:\Programme\Java\j2sdk1.4.2_03\bin\javac.exe -d c:\Arcade\ArcadeMenu\classes *.java
