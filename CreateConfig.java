@@ -177,7 +177,7 @@ public class CreateConfig extends JFrame {
 		for(int i = 0; i < genres.length; i++) { ((Console)cfgFile.consoles.get(name)).insertGenre(new Genre(genres[i]));}
 */
                 name = "Mame";
-                binary = "/Arcade/emus/mame/mame.exe";
+                binary = "/Arcade/emus/mame/mame64.exe";
                 params = "";
                 logos = "/Arcade/images/mame/";
                 roms =  "/Arcade/roms/mame/";
@@ -188,10 +188,10 @@ public class CreateConfig extends JFrame {
                 for(int i = 0; i < genres.length; i++) { ((Console)cfgFile.consoles.get(name)).insertGenre(new Genre(genres[i]));}
 
                 name = "CPS 1";
-                binary = "/Arcade/emus/mame/mame.exe";
+                binary = "/Arcade/emus/mame/mame64.exe";
                 params = "";
                 logos = "/Arcade/images/cps1/";
-                roms =  "/Arcade/roms/cps1/";
+                roms =  "/Arcade/roms/mame/";
                 romfile = "/Arcade/romfiles/cps1.dat";
                 keywiz = "e";
 
@@ -199,10 +199,10 @@ public class CreateConfig extends JFrame {
                 for(int i = 0; i < genres.length; i++) { ((Console)cfgFile.consoles.get(name)).insertGenre(new Genre(genres[i]));}
 
                 name = "CPS 2";
-                binary = "/Arcade/emus/mame/mame.exe";
+                binary = "/Arcade/emus/mame/mame64.exe";
                 params = "";
                 logos = "/Arcade/images/cps2/";
-                roms =  "/Arcade/roms/cps2/";
+                roms =  "/Arcade/roms/mame/";
                 romfile = "/Arcade/romfiles/cps2.dat";
                 keywiz = "e";
 
@@ -210,10 +210,10 @@ public class CreateConfig extends JFrame {
                 for(int i = 0; i < genres.length; i++) { ((Console)cfgFile.consoles.get(name)).insertGenre(new Genre(genres[i]));}
 
                 name = "NeoGeo";
-                binary = "/Arcade/emus/mame/mame.exe";
+                binary = "/Arcade/emus/mame/mame64.exe";
                 params = "";
                 logos =  "/Arcade/images/ng/";
-                roms = "/Arcade/roms/ng/";
+                roms =  "/Arcade/roms/mame/";
                 romfile = "/Arcade/romfiles/ng.dat";
                 keywiz = "e";
 
@@ -221,7 +221,7 @@ public class CreateConfig extends JFrame {
                 for(int i = 0; i < genres.length; i++) { ((Console)cfgFile.consoles.get(name)).insertGenre(new Genre(genres[i]));}
 
                 name = "NES";
-                binary = "/Arcade/emus/nes/fceu-0.98.8.win/fceu.exe";
+                binary = "/Arcade/emus/fceux-2.2.3-win32/fceux.exe";
                 params = "";
                 roms =  "/Arcade/roms/nes/";
                 logos = "/Arcade/images/nes/";
@@ -232,8 +232,8 @@ public class CreateConfig extends JFrame {
                 for(int i = 0; i < genres.length; i++) { ((Console)cfgFile.consoles.get(name)).insertGenre(new Genre(genres[i]));}
 
                 name = "SNES";
-                binary = "/Arcade/emus/snes/zsneswv1.36/zsnesw.exe";
-                params = "";
+                binary = "/Arcade/emus/snes9x-1.57-win32-x64/snes9x-x64.exe";
+                params = "-fullscreen";
                 roms = "c:\\Arcade\\roms\\snes\\";
                 logos = "/Arcade/images/snes/";
                 romfile = "/Arcade/romfiles/snes.dat";
@@ -243,7 +243,7 @@ public class CreateConfig extends JFrame {
                 for(int i = 0; i < genres.length; i++) { ((Console)cfgFile.consoles.get(name)).insertGenre(new Genre(genres[i]));}
 
                 name = "Genesis";
-                binary = "/Arcade/emus/genesis/wgens211/gens.exe";
+                binary = "/Arcade/emus/Fusion364/Fusion.exe";
                 params = "";
                 roms =  "/Arcade/roms/genesis/";
                 logos = "/Arcade/images/genesis/";

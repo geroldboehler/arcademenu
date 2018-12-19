@@ -201,12 +201,13 @@ public class ArcadeMenu {
 			alpha0 = Color.RED;
 			buttonalpha = Color.BLACK;
 		}
-
+		/*
 		try
 		{
 			Runtime.getRuntime().exec("/keywiz/KeyWiz_Uploader.exe /A ", null, new File("/keywiz"));
 		}
 		catch(Exception ex) { System.out.println("Error running keywiz uploader"); }
+		*/
   }
 
 	private static void shutDown() {
