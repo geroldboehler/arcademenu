@@ -122,7 +122,7 @@ public class ArcadeMenu {
 
 		frame = new JFrame("Acade Menu");
 		frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
-		
+
 
 		title = new JLabel("Total Games: " + TOTALNOFGAMES);
 		title.setFont(cfgFile.font);

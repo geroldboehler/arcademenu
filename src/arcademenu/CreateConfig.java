@@ -114,31 +114,26 @@ public class CreateConfig extends JFrame {
         edited = new Chooser(save, edited) {
             public void onAprove() {
 
-                /* Temporary hardcodes settings for testing */
                 cfgFile.consoles = new List();
                 cfgFile.lptPort = "LPT0";
                 cfgFile.dataLine = 1;
+
                 cfgFile.keyUp = 38;
                 cfgFile.keyDown = 40;
                 cfgFile.keyLeft = 37;
                 cfgFile.keyRight = 39;
-
                 cfgFile.keySelect[0] = KeyEvent.VK_CONTROL;
-                cfgFile.keySelect[1] = KeyEvent.VK_X;
-                cfgFile.keySelect[2] = KeyEvent.VK_A;
-                cfgFile.keySelect[3] = KeyEvent.VK_1;
-
-
-
+                cfgFile.keySelect[1] = KeyEvent.VK_CONTROL;
+                cfgFile.keySelect[2] = KeyEvent.VK_CONTROL;
+                cfgFile.keySelect[3] = KeyEvent.VK_CONTROL;
                 cfgFile.keyBack[0] = KeyEvent.VK_SHIFT;
-                cfgFile.keyBack[1] = KeyEvent.VK_Z;
-                cfgFile.keyBack[2] = KeyEvent.VK_S;
-                cfgFile.keyBack[3] = KeyEvent.VK_2;
+                cfgFile.keyBack[1] = KeyEvent.VK_SHIFT;
+                cfgFile.keyBack[2] = KeyEvent.VK_SHIFT;
+                cfgFile.keyBack[3] = KeyEvent.VK_SHIFT;
 
-
-
-                cfgFile.keyExit = 32;
+                cfgFile.keyExit = KeyEvent.VK_BACK_SPACE;
                 cfgFile.keyCoin = KeyEvent.VK_6;
+
                 cfgFile.logoFormat = ".jpg";
                 cfgFile.nOfCoins = 0;
                 cfgFile.images = "/Arcade/images/";
