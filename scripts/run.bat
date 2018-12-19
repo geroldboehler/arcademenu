@@ -1,0 +1,1 @@
+java -classpath C:\arcade\src\out\production\arcade arcademenu.ArcadeMenu

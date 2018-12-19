@@ -1,0 +1,8 @@
+Reading config file C:\arcade\emus\snes9x-1.57-win32-x64\snes9x.conf.
+Saving	config file	C:\arcade\emus\snes9x-1.57-win32-x64\snes9x.conf
+Sound buffer size: 8200 (2050 samples)
+No ROM file header found.
+Map_HiROMMap
+"Super Street Fighter21" [checksum ok] HiROM, 32Mbits, ROM, PAL, SRAM:0Kbits, ID:B__\, CRC32:6D86BFB0
+Sound buffer size: 8200 (2050 samples)
+Saving	config file	C:\arcade\emus\snes9x-1.57-win32-x64\snes9x.conf
